@@ -9,24 +9,48 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    bulletitem.cpp \
+    configdialog.cpp \
+    crownitem.cpp \
+    gamestartoverlayitem.cpp \
+    healthbaritem.cpp \
+    healthitem.cpp \
+    hostconfigdialog.cpp \
     main.cpp \
     mainwindow.cpp \
+    mapscene.cpp \
     networkbase.cpp \
     networkclient.cpp \
     networkhost.cpp \
     networkwidget.cpp \
-    playercolor.cpp
+    playercolor.cpp \
+    playeritem.cpp \
+    respawnoverlayitem.cpp \
+    wallitem.cpp
 
 HEADERS += \
+    bulletitem.h \
+    configdialog.h \
+    crownitem.h \
+    gamestartoverlayitem.h \
+    healthbaritem.h \
+    healthitem.h \
+    hostconfigdialog.h \
     mainwindow.h \
+    mapscene.h \
     networkbase.h \
     networkclient.h \
     networkhost.h \
     networkwidget.h \
     playercolor.h \
-    settings.h
+    playeritem.h \
+    respawnoverlayitem.h \
+    settings.h \
+    wallitem.h
 
 FORMS += \
+    configdialog.ui \
+    hostconfigdialog.ui \
     mainwindow.ui \
     networkwidget.ui
 
